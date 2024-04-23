@@ -10,10 +10,7 @@ body {
   color: #2b283a;
 }
 
-header {
-  background-color: #5f29a3;
-  padding: 45px 0;
-}
+/* HEADING */
 
 h1 {
   background-color: #5f29a3;
@@ -23,7 +20,7 @@ h1 {
 }
 
 h2 {
-margin-top: 0;
+  margin-top: 0;
 }
 
 h3 {
@@ -32,12 +29,34 @@ h3 {
   margin: 0;
 }
 
+/* layout */
+header {
+  background-color: #5f29a3;
+  padding: 45px 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 620px;
+}
+.purple-sneakers {
+  width: 100%;
+}
+
 section {
   padding: 45px 0;
 }
 
+/* LINKS */
+a {
+  color: #ef5839;
+  text-decoration: underline dotted;
+}
 
+a:hover {
+  color: #d4b44c;
+}
 
-.purple-sneakers {
-  width: 100%;
+a:active {
+  color: #d4b44c;
 }

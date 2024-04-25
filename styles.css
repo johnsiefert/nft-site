@@ -39,12 +39,32 @@ header {
   margin: 0 auto;
   width: 620px;
 }
+
 .purple-sneakers {
   width: 100%;
 }
 
+#crypto-section {
+  width: 100%;
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
 section {
   padding: 45px 0;
+}
+
+/* images */
+
+.images-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  margin: 20px 0 20px 0;
+  width: 300px;
+  border-radius: 4.6px;
 }
 
 /* LINKS */

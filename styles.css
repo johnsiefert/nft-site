@@ -15,11 +15,13 @@ p {
 }
 
 /* HEADING */
-h1,h3 {
+h1,
+h3 {
   margin: 0;
 }
 
-h1,header {
+h1,
+header {
   background-color: #5f29a3;
   font-size: 36px;
   color: whitesmoke;
@@ -73,16 +75,48 @@ header {
 /* LINKS */
 a {
   color: #ef5839;
-  text-decoration: underline dotted;
+  text-decoration: none;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   color: #d4b44c;
 }
-
 
 footer {
   text-align: center;
   color: #5f29a3;
 }
 
+.feature-links {
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
+.btn-highlight:hover,
+.btn-highlight:active {
+  background-color: #f3e885;
+  color: #2b283a;
+}
+
+.info {
+  background-color: #f0e0ff;
+}
+
+.about,
+.contact {
+  background-color: whitesmoke;
+}
+
+.info,
+.about,
+.contact {
+  color: #5f29a3;
+}
+
+.btn-inline {
+  display: inline-block;
+  padding: 10px 19px 10px 19px;
+  border-radius: 4.6px;
+  font-weight: 500;
+}
